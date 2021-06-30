@@ -1,0 +1,115 @@
+body {
+  background: black;
+  color: white;
+  font-weight: lighter;
+  font-size: 17px;
+  font-family: 'Impact';
+}
+
+h1 {
+  font-size: 60px;
+  background:linear-gradient(90deg, #fc466b 0%,#3f5efb 100% );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+h2 {
+   background:linear-gradient(90deg, #fc466b 0%,#3f5efb 100% );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 30px;
+}
+
+h3 {
+   background:linear-gradient(90deg, #fc466b 0%,#3f5efb 100% );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 30px;
+}
+
+h4 {
+   background:linear-gradient(90deg, #fc466b 0%,#3f5efb 100% );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 30px;
+}
+
+h5 {
+   background:linear-gradient(90deg, #fc466b 0%,#3f5efb 100% );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 30px;
+}
+
+a {
+  font-family: 'Impact';
+  text-decoration: none;
+  color: #6B72E1
+  font-weight: 600;
+  font-size: 16px;
+}
+a:hover {
+  color: black;
+}
+
+.container {
+  width: 700px;
+  margin: 40px auto;
+}
+
+.card-white {
+  background-color: #242424;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  border-radius: 10px;
+  margin: 20px 0px;
+  text-align: center;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+
+.btn-blue {
+  background-color: #ef4774;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 4px;
+}
+.btn-blue:hover {
+  background-color: black;
+  color: white;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+ }
+
+.list-inline li {
+  display: inline;
+  padding: 20px;
+  }
+.list-inline i {
+  font-size: 50px;
+  background:linear-gradient(90deg, #fc466b 0%,#3f5efb 100% );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  }
+
+#introduction p {
+  margin-bottom: 40px;
+}
+
+@media (max-width: 760px) {
+  .container {
+    width: 600px;
+  }
+}
+
+
+@media (max-width: 500px) {
+  .container {
+    width: 400px;
+  }
+}
